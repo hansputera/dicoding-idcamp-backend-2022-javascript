@@ -1,4 +1,4 @@
-import {Animal, Rabbit, Eagle, myRabbit, myEagle} from './oop.js';
+import { Animal, Rabbit, Eagle, myRabbit, myEagle } from './oop.js';
 import assert from 'node:assert';
 
 assert.ok(Animal);

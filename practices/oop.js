@@ -27,66 +27,65 @@
  *    - properti age bernilai: 4
  */
 
-
 /**
  * @class Animal
  */
 class Animal {
-  /**
-   * @constructor
-   * @param {string} name Animal name.
-   * @param {number} age Animal age.
-   * @param {boolean} isMammal Animal is mamalia?
-   */
-  constructor(name, age, isMammal) {
-    this.name = name;
-    this.age = age;
-    this.isMammal = isMammal;
-  }
+	/**
+	 * @constructor
+	 * @param {string} name Animal name.
+	 * @param {number} age Animal age.
+	 * @param {boolean} isMammal Animal is mamalia?
+	 */
+	constructor(name, age, isMammal) {
+		this.name = name;
+		this.age = age;
+		this.isMammal = isMammal;
+	}
 }
 
 /**
  * @class Rabbit
  */
 class Rabbit extends Animal {
-  /**
-   * @constructor
-   * @param {string} name Rabbit's name
-   * @param {number} age Rabbit's age
-   */
-  constructor(name, age) {
-    super(name, age, true);
-  }
+	/**
+	 * @constructor
+	 * @param {string} name Rabbit's name
+	 * @param {number} age Rabbit's age
+	 */
+	constructor(name, age) {
+		super(name, age, true);
+	}
 
-  /**
-   * Rabbit.eat()
-   * @return {string}
-   */
-  eat() {
-    return `${this.name} sedang makan!`;
-  }
+	/**
+	 * Rabbit.eat()
+	 * @return {string}
+	 */
+	eat() {
+		return `${this.name} sedang makan!`;
+	}
 }
 
 /**
  * @class Eagle
  */
 class Eagle extends Animal {
-  /**
-   * @constructor
-   * @param {string} name Eagle's name.
-   * @param {number} age Eagle's age.
-   */
-  constructor(name, age) {
-    super(name, age, false);
-  }
+	/**
+	 * @constructor
+	 * @param {string} name Eagle's name.
+	 * @param {number} age Eagle's age.
+	 */
+	constructor(name, age) {
+		super(name, age, false);
+	}
 
-  /**
-   * Eagle.fly()
-   * @return {string}
-   */
-  fly() {
-    return `${this.name} sedang terbang!`;
-  }
+	/**
+	 * Eagle.fly()
+	 * @return {string}
+	 */
+	fly() {
+		return `${this.name} sedang terbang!`;
+	}
 }
 
 const myRabbit = new Rabbit('Labi', 2);
@@ -96,8 +95,8 @@ const myEagle = new Eagle('Elo', 4);
  * Jangan hapus kode di bawah ini
  */
 
-//module.exports = {
+// module.exports = {
 //  Animal, Rabbit, Eagle, myRabbit, myEagle,
-//};
+// };
 
 export { Animal, Rabbit, Eagle, myRabbit, myEagle };
