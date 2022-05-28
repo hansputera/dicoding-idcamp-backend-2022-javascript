@@ -4,7 +4,9 @@ import assert from 'node:assert';
 const randomNilai = Math.floor(Math.random() * 100);
 const result = scoreChecker(randomNilai);
 
-console.log(`[OPERATOR_IF_ELSE]:: [RESULT= '${result}']::[NILAI= '${randomNilai}']`);
+console.log(
+	`[OPERATOR_IF_ELSE]:: [RESULT= '${result}']::[NILAI= '${randomNilai}']`,
+);
 
 assert.strictEqual(typeof result, 'string');
 
