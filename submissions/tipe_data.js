@@ -12,7 +12,4 @@ const lastName = 'Putra S';
 const age = 15;
 const isMarried = false;
 
-module.exports = {
-  firstName, lastName, age, isMarried,
-};
-
+export { firstName, lastName, age, isMarried };
