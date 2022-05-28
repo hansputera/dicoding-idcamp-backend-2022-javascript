@@ -24,15 +24,14 @@
  */
 
 const restaurant = {
-  'name': 'Warung Pecel Bu Inah',
-  'city': 'Pangkalan Bun',
-  'favorite drink': 'Ice tea',
-  'favorite food': 'Pecel',
-  'isVegan': true,
+	'name': 'Warung Pecel Bu Inah',
+	'city': 'Pangkalan Bun',
+	'favorite drink': 'Ice tea',
+	'favorite food': 'Pecel',
+	'isVegan': true,
 };
 
 const { name, 'favorite drink': favoriteDrink } = restaurant;
-
 
 /**
  * Jangan hapus kode di bawah ini
