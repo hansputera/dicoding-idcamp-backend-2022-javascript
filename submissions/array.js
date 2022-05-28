@@ -8,9 +8,9 @@
  */
 
 const evenNumber = new Array(100)
-  .fill().map((_, index) => ((index+1) < 2 || (index+1) % 2) ? false : index+1)
-  .filter((x) => typeof x === 'number');
-
+	.fill()
+	.map((_, index) => (index + 1 < 2 || (index + 1) % 2 ? false : index + 1))
+	.filter((x) => typeof x === 'number');
 
 /**
  * Jangan hapus kode di bawah ini
