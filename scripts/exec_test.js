@@ -11,7 +11,7 @@ files
 	.filter((fl) => /.*(spec|test)\.((m|c)?js)/gi.test(fl))
 	.forEach(async (file) => {
 		let success = true;
-		import(path.resolve(process.cwd(), 'submissions', file))
+		import(path.resolve(process.cwd(), 'practices', file))
 			.catch((e) => {
 				success = false;
 				console.error(file, 'test failed because', format("'%s'", e.message));
