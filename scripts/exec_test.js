@@ -4,7 +4,7 @@ import path from 'node:path';
 import { format } from 'node:util';
 
 const files = await fs.promises.readdir(
-	path.resolve(process.cwd(), 'submissions'),
+	path.resolve(process.cwd(), 'practices'),
 );
 
 files
