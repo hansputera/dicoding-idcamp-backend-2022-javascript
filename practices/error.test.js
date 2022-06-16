@@ -19,7 +19,7 @@ const expectErrorMessage = (message, ErrInstance) => {
 		throw new ErrInstance(message);
 		return true;
 	} catch (err) {
-		assert.strictEqual(errInstance.name, err.name);
+		assert.strictEqual(ErrInstance.name, err.name);
 		assert.strictEqual(err.message, message);
 		return true;
 	}
