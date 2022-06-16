@@ -69,7 +69,7 @@ function validateNumberInput(arg1, arg2, arg3) {
 	if (typeof arg1 !== 'number')
 		throw new ValidationError('Argumen pertama harus number');
 	else if (typeof arg2 !== 'number')
-		throw new ValidationError('Argument kedua harus number');
+		throw new ValidationError('Argumen kedua harus number');
 	else if (typeof arg3 !== 'number')
 		throw new ValidationError('Argumen ketiga harus number');
 	else return;
