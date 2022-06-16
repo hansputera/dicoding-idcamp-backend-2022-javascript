@@ -72,5 +72,5 @@ const gettingUserName = async () => {
  * Abaikan kode di bawah ini
  */
 
-//module.exports = { fetchingUserFromInternet, gettingUserName, NetworkError };
+// module.exports = { fetchingUserFromInternet, gettingUserName, NetworkError };
 export { fetchingUserFromInternet, gettingUserName, NetworkError };
