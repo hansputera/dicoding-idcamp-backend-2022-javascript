@@ -36,7 +36,6 @@ const expectErrFunc = (m, func, d) => {
 	try {
 		func(...d);
 	} catch (err) {
-		assert.strictEqual(err.name, func.name);
 		assert.strictEqual(err.message, m);
 		return true;
 	}
